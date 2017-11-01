@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
+    aaptOptions {  
+    cruncherEnabled = false  
+        }  
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
